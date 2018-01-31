@@ -21,6 +21,7 @@ public class EurekaClientApplication {
 
 	@GetMapping("/dc")
 	public String dc() {
+		// 当前客户端缓存的所有服务清单
 		String services = "Services: " + discoveryClient.getServices();
 		System.out.println(services);
 		return services;
