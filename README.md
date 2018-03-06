@@ -10,7 +10,7 @@
 |eureka-consumer-ribbon     |eureka服务消费者-ribbon (负载均衡)                        |
 |eureka-consumer-feign      |eureka服务消费者-feign (声明式服务调用客户端、负载均衡)   |
 |config-server-git          |配置中心：指向GIT                                         |
-|config-client              |配置客户端                                                |
+|config-client              |配置客户端，调用配置中心的服务                            |
 
 # 服务部署启动
 *  使用eureka方式，则需要启动eureka-server(服务注册中心)和eureka-client(服务提供者)
